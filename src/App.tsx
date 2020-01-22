@@ -80,7 +80,7 @@ function App() {
           <Button onClick={()=> {setNumericInput2(numericInput2 * -1)}}>+/-</Button>
         </div>
         <div>{/* Go and Clear Buttons */}
-          <Button onClick={() => {performCalculation(); setNumericInput1(0); setNumericInput2(0); setContinuedCalculation(true);}}>=</Button>
+          <Button onClick={() => {performCalculation(); setNumericInput1(0); setContinuedCalculation(true);}}>=</Button>
           <Button onClick={() => {setCalcResult(0); setNumericInput1(0); setNumericInput2(0); setContinuedCalculation(false);}}>Clear</Button>
         </div>
       </CalculatorBody>
