@@ -19,7 +19,8 @@ export const Button = styled.button`
 `;
 
 export const Input = styled.input`
-    color: black; 
+    color: black;
+    width: 50px; 
     margin: 2px;
     padding: 5px 10px 5px 10px; 
     background: rgb(197, 197, 197;
