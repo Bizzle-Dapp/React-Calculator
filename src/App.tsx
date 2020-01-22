@@ -68,6 +68,7 @@ function App() {
         </div>
         <div> {/* Numeric Input */}
           <Input type="number" value={numericInput} onChange={(e: React.ChangeEvent<HTMLInputElement>) => {setNumericInput(Number(e.target.value))}}></Input>
+          <Button onClick={()=> {setNumericInput(numericInput * -1)}}>+/-</Button>
         </div>
         <div>{/* Go and Clear Buttons */}
           <Button onClick={() => {performCalculation()}}>=</Button>
