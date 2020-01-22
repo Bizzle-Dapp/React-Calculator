@@ -6,6 +6,15 @@ export const CalculatorBody = styled.div`
     border: 2px solid #a0a0a0;
 `;
 
+export const ResultView = styled.div`
+    height: 50px; 
+    border-bottom: 2px white solid;
+    border-top-left-radius: inherit; 
+    border-top-right-radius: inherit;
+    text-align: right; 
+    padding: 5px 10px 0px 10px;
+`;
+
 export const Button = styled.button`
     color: white; 
     margin: 2px;
